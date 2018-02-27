@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.cadastro-produtos, .lista-produtos {
+	padding: 2em 0em;
+	
+}
+
+.btn-entrar {
+	background-color: #053D4E;
+	color: #fff;
+}
+
+.red {
+  color: #FF4D1A;
+}
+
+.black {
+	color:#191919;
+}
+
+.bolder {
+	font-weight: bold;
+}
+
+.loginform {
+	margin-bottom: 1em;
+}
+
+.btn-default {
+	background-color: #191818 !important;
+	color: #fff !important;
+}
+
+.headerPrincipal {
+	background-color: #053D4E;
+	color: #fff;
+
+}
+
+
+a {
+	color:#FFF !important;
+}
+
+.wrapper {	
+	margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.form-signin {
+  max-width: 380px;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,0.1);  
+
+  .form-signin-heading,
+	.checkbox {
+	  margin-bottom: 30px;
+	}
+
+	.checkbox {
+	  font-weight: normal;
+	}
+
+	.form-control {
+	  position: relative;
+	  font-size: 16px;
+	  height: auto;
+	  padding: 10px;
+		@include box-sizing(border-box);
+
+		&:focus {
+		  z-index: 2;
+		}
+	}
+
+	input[type="text"] {
+	  margin-bottom: -1px;
+	  border-bottom-left-radius: 0;
+	  border-bottom-right-radius: 0;
+	}
+
+	input[type="password"] {
+	  margin-bottom: 20px;
+	  border-top-left-radius: 0;
+	  border-top-right-radius: 0;
+	}
+}
